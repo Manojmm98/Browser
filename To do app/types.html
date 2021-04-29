@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* we can not give height and width to inline elements*/
+        .inline{
+            display: inline;
+           background-color: aqua;
+           padding:10px;
+           font-size: 1.5rem;
+        }
+        /*we can not give height and width to block elements*/
+        .block{
+            display: block;
+            background-color: green;
+            height:100px;
+            width:100px;
+            margin:20px auto;
+        }
+        .inline-block{
+            display: inline-block;
+            background-color: green;
+            height:100px;
+            width:100px;
+            margin:0px auto;
+            padding-left: 10px;
+            margin-right: 10px;
+
+        }
+        </style>
+            
+<body>
+        <span class="inline">I am span</span>
+        <span class="inline">I am  span</span>
+        <span class="inline">i am span</span>
+
+        
+        <div class="block">I am block</div>
+        <div class="block">I am block</div>
+        <div class="block">I am block</div>
+
+        <div class="inline-block">I am inline block</div>
+        <div class="inline-block">I am inline block</div>
+        <div class="inline-block">I am inline block</div>
+    
+</body>
+</html>
