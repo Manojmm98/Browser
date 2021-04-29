@@ -1,2 +1,2 @@
 # Browser
-Some Activity through Browser 
+Some activity through Browser 
